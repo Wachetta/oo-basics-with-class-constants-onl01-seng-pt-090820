@@ -7,7 +7,7 @@ BRANDS = []
   def initialize(brand)
     @brand = brand
     if BRANDS.include?(brand)
-      brand.unshift
+      brand.uniq
     BRANDS << brand
       end
   end
