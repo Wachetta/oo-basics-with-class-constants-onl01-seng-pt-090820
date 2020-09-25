@@ -8,7 +8,7 @@ BRANDS = []
     @brand = brand
     BRANDS << brand
     BRANDS.include?(brand)
-     brand.clear
+     brand.shift
   end
 
   def cobble
